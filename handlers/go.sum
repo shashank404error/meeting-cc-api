@@ -148,6 +148,8 @@ github.com/shashank404error/meeting-cc-api/data v0.0.0-20210520131043-96dcf85419
 github.com/shashank404error/meeting-cc-api/data v0.0.0-20210520131043-96dcf85419e5/go.mod h1:YJ5Fxpo3o5tVsVBESEC2vdSb2kcahRhNOO9ZSldlr4A=
 github.com/shashank404error/meeting-cc-api/data v0.0.0-20210520131426-70dfd9c2af23 h1:n0LsOimJ9sQyQWDuLOyEIHCpswulnD3pxdlRiKnB4+I=
 github.com/shashank404error/meeting-cc-api/data v0.0.0-20210520131426-70dfd9c2af23/go.mod h1:YJ5Fxpo3o5tVsVBESEC2vdSb2kcahRhNOO9ZSldlr4A=
+github.com/shashank404error/meeting-cc-api/data v0.0.0-20210520132720-37765d787c73 h1:6wdtMfFSxdOa2ZIdKWUxqAj4Jq5zhVsWgw5N7rXwaS0=
+github.com/shashank404error/meeting-cc-api/data v0.0.0-20210520132720-37765d787c73/go.mod h1:YJ5Fxpo3o5tVsVBESEC2vdSb2kcahRhNOO9ZSldlr4A=
 github.com/sirupsen/logrus v1.8.1/go.mod h1:yWOB1SBYBC5VeMP7gHvWumXLIWorT60ONWic61uBYv0=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
