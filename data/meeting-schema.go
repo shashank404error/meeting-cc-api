@@ -9,7 +9,7 @@ import (
 type GetEventDetailResponse struct {
 
 	//Resonse Code
-	// Example: 200 for success
+	//
 	Code int64 `json:"code"`
 }
 
