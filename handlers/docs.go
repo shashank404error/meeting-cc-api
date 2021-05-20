@@ -15,7 +15,7 @@
 // swagger:meta
 
 package handlers
-//import "github.com/shashank404error/meeting-cc-api/data"
+import "github.com/shashank404error/meeting-cc-api/data"
 
 //
 // NOTE: Types defined here are purely for documentation purposes
@@ -46,4 +46,18 @@ type noContentResponseWrapper struct {
 type callLoginParamsWrapper struct {
 	// No data is required for loggin in
 	// Call the API directly
+}
+
+// swagger:parameters getAllEvents
+type callbackLoginParamsWrapper struct {
+	// Callback of the meeting login API
+	// gets called automatically
+}
+
+// Response structure for event detail
+// swagger:response eventDetails
+type getAllEventsResponseWrapper struct {
+	// Response structre for all events detail
+	// in: body
+	Body data.GetEventDetailResponse
 }
