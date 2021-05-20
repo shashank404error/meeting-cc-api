@@ -2,7 +2,6 @@ package handlers
 
 import (
 	"net/http"
-	"github.com/gorilla/mux"
 	"github.com/shashank404error/meeting-cc-api/data"
 )
 
@@ -14,7 +13,7 @@ import (
 //  422: errorValidation
 //  501: errorResponse
 
-func (p *Delivery) GetAllEvents(w http.ResponseWriter, r *http.Request) {
+func (p *Meeting) GetAllEvents(w http.ResponseWriter, r *http.Request) {
 	p.l.Println("Handle GET request -> meeting-cc-api Module")
 
 	lp := data.GetEventsCRUDOPS(r)
