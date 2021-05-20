@@ -4,6 +4,6 @@ go 1.15
 
 require (
 	github.com/gorilla/mux v1.8.0
-	github.com/shashank404error/meeting-cc-api/data v0.0.0-20210520130210-b2d900c19c66
+	github.com/shashank404error/meeting-cc-api/data v0.0.0-20210520131043-96dcf85419e5
 	golang.org/x/oauth2 v0.0.0-20210514164344-f6687ab2804c
 )
