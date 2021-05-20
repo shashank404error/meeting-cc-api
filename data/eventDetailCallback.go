@@ -33,7 +33,7 @@ func init() {
 }
 
 func EventDetailCallback (r *http.Request) {
-	_, token, err := getUserInfo(r.FormValue("state"), r.FormValue("code"))
+	_, token, err := GetUserInfo(r.FormValue("state"), r.FormValue("code"))
 	if err != nil {
 		log.Error("EventDetailCallback ERROR:")
 		log.Error(err)
@@ -49,7 +49,7 @@ func EventDetailCallback (r *http.Request) {
 	if err != nil {
 			log.Fatalf("Unable to parse client secret file to config: %v", err)
 	}
-	client := getClient(config, token)
+	client := GetClient(config, token)
 
 	srv, err := calendar.New(client)
 	if err != nil {
@@ -76,7 +76,7 @@ func EventDetailCallback (r *http.Request) {
 	}
 }
 
-func getUserInfo(state string, code string) ([]byte, *oauth2.Token, error) {
+func GetUserInfo(state string, code string) ([]byte, *oauth2.Token, error) {
 	if state != oauthStateString {
 		return nil, nil, fmt.Errorf("invalid oauth state")
 	}
@@ -102,7 +102,7 @@ func getUserInfo(state string, code string) ([]byte, *oauth2.Token, error) {
 }
 
 // Retrieve a token, saves the token, then returns the generated client.
-func getClient(config *oauth2.Config, tok *oauth2.Token) *http.Client {
+func GetClient(config *oauth2.Config, tok *oauth2.Token) *http.Client {
 	// The file token.json stores the user's access and refresh tokens, and is
 	// created automatically when the authorization flow completes for the first
 	// time.

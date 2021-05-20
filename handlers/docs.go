@@ -61,3 +61,20 @@ type getAllEventsResponseWrapper struct {
 	// in: body
 	Body data.GetEventDetailResponse
 }
+
+// swagger:parameters createEvent
+type createEventParamsWrapper struct {
+	// Structure to create event in primary calendar of the user
+	//
+	// in: body
+	// required: true
+	Body data.CreateEventRequest
+}
+
+// Response structure for create event 
+// swagger:response createEventResp
+type createEventsResponseWrapper struct {
+	// Response structre for create event
+	// in: body
+	Body data.CreateEventResponse
+}
