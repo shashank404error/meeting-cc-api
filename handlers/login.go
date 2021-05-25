@@ -1,7 +1,7 @@
 
 package handlers
 
-import (
+/*import (
 	"net/http"
 	//"github.com/gorilla/mux"
 	//"github.com/shashank404error/meeting-cc-api/data"
@@ -38,4 +38,4 @@ func init() {
 		Scopes:       []string{"https://www.googleapis.com/auth/calendar.events"},
 		Endpoint:     google.Endpoint,
 	}
-}
+}*/
