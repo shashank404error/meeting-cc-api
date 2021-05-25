@@ -155,6 +155,8 @@ github.com/shashank404error/meeting-cc-api/data v0.0.0-20210520153936-64f51b3fb4
 github.com/shashank404error/meeting-cc-api/data v0.0.0-20210520153936-64f51b3fb4be/go.mod h1:8+Q6XLWC/RAfvnQAo26a5Su6jinNFUJseHeiJ/jX+L0=
 github.com/shashank404error/meeting-cc-api/data v0.0.0-20210525120848-34b24d57a84f h1:h9XN1XV0N56WHlIuYrnPVoELpov+HOX8tobu7jS8CBg=
 github.com/shashank404error/meeting-cc-api/data v0.0.0-20210525120848-34b24d57a84f/go.mod h1:8+Q6XLWC/RAfvnQAo26a5Su6jinNFUJseHeiJ/jX+L0=
+github.com/shashank404error/meeting-cc-api/data v0.0.0-20210525122622-89d2600da5b9 h1:NCy0pGML63JmyMiQKFiZVxXJlzKYlav1ZwModaEKCfI=
+github.com/shashank404error/meeting-cc-api/data v0.0.0-20210525122622-89d2600da5b9/go.mod h1:8+Q6XLWC/RAfvnQAo26a5Su6jinNFUJseHeiJ/jX+L0=
 github.com/shashank404error/meeting-cc-api/handlers v0.0.0-20210520132901-30196885431e/go.mod h1:6Tj9zOS4M1tEKHqo+/soPNeHsFTrPNezGb07TglTWrM=
 github.com/sirupsen/logrus v1.8.1/go.mod h1:yWOB1SBYBC5VeMP7gHvWumXLIWorT60ONWic61uBYv0=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=

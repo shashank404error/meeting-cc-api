@@ -2,8 +2,9 @@ package handlers
 
 import (
 	"net/http"
-	"fmt"
-	"github.com/shashank404error/meeting-cc-api/data"
+	//"fmt"
+	"golang.org/x/oauth2"
+	"golang.org/x/oauth2/google"
 )
 
 // swagger:route POST /meeting/login meeting createEvent
@@ -13,9 +14,8 @@ import (
 //  422: errorValidation
 //  501: errorResponse
 
-func (p *Meeting) CreateEvent (w http.ResponseWriter, r *http.Request){
+func (p *Meeting) CreateEventLogin (w http.ResponseWriter, r *http.Request){
 	p.l.Println("Handle POST request -> meeting-cc-api Module")
-	event := &data.CreateEventRequest{}
 
 	url := googleOauthConfig.AuthCodeURL(oauthStateString)
 	http.Redirect(w, r, url, http.StatusTemporaryRedirect)
